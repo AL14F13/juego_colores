@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+ 
+  <title>Mi aplicacion</title>
+
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" /> 
+  <link rel="stylesheet" href="css/oscuro.min.css" /> 
+              
+        
+
+
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js" type="text/javascript"></script>
+  <!-- <script src="phonegap.js" type="text/javascript"></script> -->
+ </head>
+
+ <body>
+ <!--Comienza Principal -->
+ <div data-role="page" id="principal" >   
+  <div data-role="main" class="ui-content">
+  
+    <div align="center" style="background-color:#3FC; height:200px;">
+     <a href="#juego" class=" ui-btn ui-shadow ui-btn-corner-all ui-icon-arrow-r ui-btn-inline ui-btn-icon-right" id="btnjugar">JUGAR</a>
+    </div>
+    
+  </div>
+  
+  <div data-role="footer">
+    <h1>@betty</h1>
+  </div>
+ </div>  
+ <!--Termina Principal -->
+
+
+ 
+<!--Comienza Juego -->
+<div data-role="page" id="juego" >   
+ <div data-role="main" class="ui-content">
+   
+   <div id="uno" style="background-color:#3FF; height:300px; width:50%; float:left;">
+   </div> 
+  
+   <div id="dos" style="background-color:#F39; height:300px; width:50%; float:left;">
+   </div> 
+    
+   <div id="tres" style="background-color:#FF9; height:300px; width:50%; float:left;">
+   </div> 
+   
+   <div id="cuatro" style="background-color:#3F0; height:300px; width:50%; float:left;">
+   </div> 
+            
+ </div>
+  
+   <div data-role="footer">
+    <div id="resultado" align="center"><!--Se declaro esta variable para mandar el valor en nuestro pie de paágina el cual va alamacenado lo que el usuario introce-->
+    </div>
+   </div>
+ <!--Termina Juego -->
